@@ -1,5 +1,5 @@
 package Session;
-
+// 세션과제 1번 - ***로 바꾸기
 public class Week05_Ex01{
     public static void main(String[] args) {
         String name = "박교수";
