@@ -1,5 +1,5 @@
 class HamBurger {
-
+    String name = "HamBurger";
     String Material1 = "양상추";
     String Material2 = "패티";
     String Material3 = "피클";
@@ -13,6 +13,7 @@ class HamBurger {
 }
 
 class CheeseBurger extends HamBurger {
+    String name = "CheeseBurger";
     public void cook() {
         System.out.println("치즈버거를 만듭니다");
         System.out.println("빵 사이에 들어가는 재료는?");
@@ -24,6 +25,7 @@ class CheeseBurger extends HamBurger {
 }
 
 class ShrimpBurger extends HamBurger {
+    String name = "ShrimpBurger";
     public void cook() {
         System.out.println("새우버거를 만듭니다");
         System.out.println("빵 사이에 들어가는 재료는?");
