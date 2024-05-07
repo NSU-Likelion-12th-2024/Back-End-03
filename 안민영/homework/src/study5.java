@@ -46,7 +46,6 @@ public class study5 {
                 e.printStackTrace();
             }
         }
-
         scanner.close();
     }
 }
